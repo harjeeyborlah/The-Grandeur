@@ -33,7 +33,7 @@ CSS
 
 JavaScript
 
-Bootstrap
+TailwindCss
 
 Getting Started
 
