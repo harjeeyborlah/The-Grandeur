@@ -23,7 +23,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-[#F3E0BE] font-display">
+  <body class="bg-[#F3E0BE] font-display scroll-smooth">
     <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
@@ -35,7 +35,7 @@
             alt="The Grandeur"
           />
           <span
-            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            class="self-center text-[20px] font-semibold whitespace-nowrap dark:text-black"
             >The Grandeur</span
           >
         </a>
@@ -152,19 +152,62 @@
       </div>
     </nav>
 
-    <section class="w-full">
+    <section class="w-full mb-20">
       <img src="Pictures/Black logo - no background.png" />
     </section>
 
-    <section >
-      <div class="flex flex-col md:flex-row justify-center  items-center ">
-        <div class="mb-4 md:mb-0 md:mx-20">Item 1</div>
-        <div class="mb-4 md:mb-0">Item 2</div>
-        <div>Item 3</div>
+    <section>
+      <div class="flex flex-col md:flex-row justify-center items-center mb-20">
+        <a href="#"><div class="mb-4 md:mb-0 md:mr-20">press room</div></a>
+        <a href="#"
+          ><div class="mb-4 md:mb-0 md:mr-20">
+            gift certificates & cookbook
+          </div></a
+        >
+        <a href="#"><div>contact</div></a>
       </div>
-      
+
+      <div class="flex justify-center mb-10">
+        <div class="mr-6">
+          <a href="index.html">The Grandeur</a>
+        </div>
+        <div class="h-5 border-r border-black mr-6"></div>
+        <div>
+          <a href="index.html">Evivia</a>
+        </div>
+      </div>
+
+      <div class="text-center mb-10">
+        <div>The Grandeur Hotel</div>
+        <div>1234 Elm Avenue (near Oak St.)</div>
+        <div>Los Angeles, CA 90012</div>
+        <div>
+          p:<a href="tel:213.555.6789" class="text-blue-600">213.555.6789</a>
+        </div>
+      </div>
+
+      <div class="text-center mb-20">
+        <a href="#" class="text-blue-600">Reservations and Hours</a>
+      </div>
     </section>
 
+    <button id="scroll-to-top" class="fixed bottom-5 right-5 bg-gray-800 text-white rounded-full p-3 shadow-lg hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+      </svg>
+    </button>
+    
+  
+    
+
+    <footer
+      class="bg-black flex flex-col items-center md:flex-row justify-between font-sans py-5 text-gray-500"
+    >
+      <div class="md:ml-10">© 2015-2023 Grandeur</div>
+      <div class="md:mr-20">Photos by AI | Site by SiyanbolaAjibola</div>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
