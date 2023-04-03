@@ -39,7 +39,7 @@ Getting Started
 
 To view the website, simply navigate to the following URL:
 
-https://www.thegrandeurhotel.com
+https://the-grandeur.netlify.app/
 
 Contributing
 
