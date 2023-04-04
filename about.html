@@ -23,7 +23,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-[#F3E0BE] font-display">
+  <body class="bg-[#F3E0BE] font-display scroll-smooth md:overflow-y-hidden">
     <nav class="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
@@ -35,7 +35,7 @@
             alt="The Grandeur"
           />
           <span
-            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            class="self-center text-[20px] font-semibold whitespace-nowrap dark:text-black"
             >The Grandeur</span
           >
         </a>
@@ -67,10 +67,16 @@
           >
             <li>
               <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
-                aria-current="page"
+                href="about.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >Cuisine</a
               >
             </li>
             <li>
@@ -79,7 +85,7 @@
                 data-dropdown-toggle="dropdownNavbar"
                 class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
               >
-                Dropdown
+                Menu
                 <svg
                   class="w-5 h-5 ml-1"
                   aria-hidden="true"
@@ -107,52 +113,38 @@
                     <a
                       href="#"
                       class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >Dashboard</a
+                      >Lunch Menu</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
                       class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >Settings</a
+                      >Dinner Menu</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
                       class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                      >Earnings</a
+                      >Wine List</a
                     >
                   </li>
                 </ul>
-                <div class="py-1">
-                  <a
-                    href="#"
-                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 dark:hover:text-white"
-                    >Sign out</a
-                  >
-                </div>
               </div>
             </li>
             <li>
               <a
                 href="#"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Services</a
+                >Reservations</a
               >
             </li>
             <li>
               <a
                 href="#"
                 class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Pricing</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Contact</a
+                >Private Dining</a
               >
             </li>
           </ul>
@@ -160,6 +152,78 @@
       </div>
     </nav>
 
+    <section class="mx-5 md:mx-36">
+      <div class="text-4xl mt-10 mb-3">
+        Xenia - <span class="font-mono">μεγαλοπρέπεια</span>
+      </div>
+      <div class="flex flex-col md:flex-row md:items-stretch">
+        <div class="pr-10 md:flex-1 h-full">
+          <hr class="border-black mb-2" />
+          <hr class="border-black mb-5" />
+          <div class="font-serif">
+            At Grandeur Hotel, we believe in the power of hospitality to create
+            meaningful connections with our guests. Inspired by the Greek
+            concept of Xenia, the art of extending guest-friendship to
+            strangers, we strive to provide an experience that goes beyond
+            luxury accommodation.<br /><br />
+            Our philosophy is rooted in the belief that great food and warm
+            hospitality can transform a hotel into a home away from home.
+            Drawing inspiration from the culinary traditions of Greece, we offer
+            a cuisine fit for the gods, prepared with the freshest local
+            ingredients and served with a smile. Our commitment to excellence is
+            reflected in every detail, from the inviting fireplace in our lobby
+            to the hand-picked flowers that adorn our guest rooms. <br /><br />
+            When you stay with us, you'll experience the warmth and tradition of
+            ages-old hospitality in a setting that is both grand and intimate.
+            At Grandeur Hotel, we are driven by a passion for creating
+            unforgettable memories. We invite you to join us and discover the
+            magic of Xenia for yourself.
+          </div>
+        </div>
+        <div class="mt-7 md:mt-0 md:flex-grow-0 md:flex-shrink-0 md:h-full md:w-1/4">
+          <img src="/Pictures/firstaboutpic.jpg" />
+        </div>
+      </div>
+      <hr class="border-black mb-2 mt-8" />
+      <hr class="border-black mb-5" />
+    </section>
+
+    <section class="mx-5 md:mx-36">
+      <div>
+        
+      </div>
+    </section>
+    
+    
+
+    <button
+      id="scroll-to-top"
+      class="fixed bottom-5 right-5 bg-gray-800 text-white rounded-full p-3 shadow-lg hidden"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M5 15l7-7 7 7"
+        />
+      </svg>
+    </button>
+
+    <footer
+      class="bg-black flex flex-col items-center md:flex-row justify-between font-sans py-5 text-gray-500"
+    >
+      <div class="md:ml-10">© 2015-2023 Grandeur</div>
+      <div class="md:mr-20">Photos by AI | Site by SiyanbolaAjibola</div>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
