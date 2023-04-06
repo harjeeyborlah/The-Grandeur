@@ -1035,6 +1035,10 @@ video {
   vertical-align: top;
 }
 
+.align-middle {
+  vertical-align: middle;
+}
+
 .font-display {
   font-family: Cinzel Decorative, cursive;
 }
@@ -1253,6 +1257,18 @@ video {
     margin-top: 0px;
   }
 
+  .md\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .md\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1267,6 +1283,10 @@ video {
 
   .md\:h-full {
     height: 100%;
+  }
+
+  .md\:max-h-\[500px\] {
+    max-height: 500px;
   }
 
   .md\:w-1\/4 {
@@ -1303,6 +1323,14 @@ video {
 
   .md\:w-\[52\%\] {
     width: 52%;
+  }
+
+  .md\:w-\[48\%\] {
+    width: 48%;
+  }
+
+  .md\:max-w-\[300px\] {
+    max-width: 300px;
   }
 
   .md\:flex-1 {
