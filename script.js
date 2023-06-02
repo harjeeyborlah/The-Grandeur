@@ -1,23 +1,35 @@
+//count down when character counts down
 var textarea = document.getElementById("my-textarea");
-  var charCount = document.getElementById("char-count");
+var charCount = document.getElementById("char-count");
 
-  textarea.addEventListener("input", function() {
-    var remainingChars = 75 - textarea.value.length;
-    charCount.textContent = remainingChars;
-  });
-  
+// Set initial character count to 75
+charCount.textContent = 75;
+
+textarea.addEventListener("input", function() {
+  var remainingChars = 75 - textarea.value.length;
+  charCount.textContent = remainingChars;
+});
+
+
+
+
+//to insert selcted option in select box
 $('#mySelect').on('change', function() {
   var selectedOption = $(this).val();
   $(this).find('option[value="' + selectedOption + '"]').attr('selected', true);
 });
 
 
-var checkbox = document.getElementById("gift-wrap");
+
+//make checked box bold when clicked
+var checkbox1 = document.getElementById("gift-wrap");
   var label = document.getElementById("gift-wrap-label");
 
-  checkbox.addEventListener("change", function() {
-    label.classList.toggle("font-bold", checkbox.checked);
+  checkbox1.addEventListener("change", function() {
+    label.classList.toggle("font-bold", checkbox1.checked);
   });
+
+
 
 
 const scrollToTopBtn = document.getElementById("scroll-to-top");
@@ -37,6 +49,13 @@ scrollToTopBtn.addEventListener("click", () => {
   });
 });
 
+var checkbox = document.getElementById("my-checkbox");
+var div = document.getElementById("my-div");
 
-
-
+checkbox.addEventListener("change", function() {
+  if (checkbox.checked) {
+    div.style.display = "none";
+  } else {
+    div.style.display = "block";
+  }
+});
