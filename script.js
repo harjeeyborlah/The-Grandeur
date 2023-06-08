@@ -29,6 +29,31 @@ var checkbox1 = document.getElementById("gift-wrap");
     label.classList.toggle("font-bold", checkbox1.checked);
   });
 
+  var sign = document.getElementById("signature");
+  var signaturelabel = document.getElementById("signature-label");
+
+  sign.addEventListener("change", function() {
+    signaturelabel.classList.toggle("font-bold", sign.checked);
+  });
+
+  //Radio Buttons
+  const option1Label = document.getElementById('option1');
+  const option2Label = document.getElementById('option2');
+
+  const radioButtons = document.querySelectorAll('input[name="radio"]');
+  radioButtons.forEach(function(radio) {
+    radio.addEventListener('change', function() {
+      if (this.checked) {
+        if (this === radioButtons[0]) {
+          option1Label.style.fontWeight = 'bold';
+          option2Label.style.fontWeight = 'normal';
+        } else {
+          option1Label.style.fontWeight = 'normal';
+          option2Label.style.fontWeight = 'bold';
+        }
+      }
+    });
+  });
 
 
 
